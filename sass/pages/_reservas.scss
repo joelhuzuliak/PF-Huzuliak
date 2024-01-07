@@ -1,0 +1,183 @@
+.imagen-reservas {
+    width: 100%;
+}
+
+.imagen-reservas img {
+    width: 100%;
+
+    @media (min-width:600px) {
+        width: 100%;
+        height: 20vh;
+    }
+
+    @media (min-width:770px) {
+        width: 100%;
+        height: 35vh;
+    }
+
+    @media (min-width:1024px) {
+        width: 100%;
+        height: 50vh;
+    }
+
+    @media (min-width: 1200px) {
+        width: 100%;
+        height: 55vh;
+    }
+}
+
+/* Contenedor de reservas */
+
+.contenedor-reservas {
+    text-align: center;
+
+    & h2 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.reservas label {
+    margin: 10px;
+
+    & input {
+        margin: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        border: 5px solid rgb(92, 88, 81);
+        border-radius: 1rem;
+        padding: 8px;
+        background-color: rgb(26, 26, 187);
+
+        &:hover {
+           background-color: $c-azul;
+           color: $c-amarillo;
+           border: 5px solid $c-negro;
+        }
+    }
+
+    @media (min-width:600px) {
+        & input {
+            width: 300px;
+        }
+    }
+
+    @media (min-width:770px) {
+        & input {
+            width: 400px;
+        }
+    }
+
+    @media (min-width:1024px) {
+        & input {
+            width: 500px;
+        }
+    }
+}
+
+/* Ofertas */
+
+.contenedor-ofertas{
+    text-align: center;
+
+    & h2 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    & .ofertas {
+        margin: 0 10px;
+
+        strong {
+            text-transform: uppercase;
+            color: $c-amarillo;
+        }
+
+        img {
+            width: 350px;
+        }
+    }
+
+    @media (min-width:600px) {
+        & h2 {
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+    }
+
+    @media (min-width:770px) {
+        .ofertas {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            & p {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    @media (min-width:1024px) {
+        & h2 {
+            font-size: 35px;
+        }
+    }
+}
+
+/* Reservas anteriores */
+
+.contenedor-antigua {
+    text-align: center;
+
+    & h2 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    & .antigua {
+        margin: 0 10px;
+
+        & img {
+            width: 350px;
+        }
+
+        strong {
+            text-transform: uppercase;
+            color: $c-amarillo;
+        }
+    }
+
+    @media (min-width:600px) {
+        & h2 {
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+    }
+
+    @media (min-width:770px) {
+        .antigua {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            & p {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    @media (min-width:1024px) {
+        & h2 {
+            font-size: 35px;
+        }
+    }
+}

@@ -922,5 +922,167 @@ span {
     width: 400px;
   }
 }
+.imagen-reservas {
+  width: 100%;
+}
+
+.imagen-reservas img {
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .imagen-reservas img {
+    width: 100%;
+    height: 20vh;
+  }
+}
+@media (min-width: 770px) {
+  .imagen-reservas img {
+    width: 100%;
+    height: 35vh;
+  }
+}
+@media (min-width: 1024px) {
+  .imagen-reservas img {
+    width: 100%;
+    height: 50vh;
+  }
+}
+@media (min-width: 1200px) {
+  .imagen-reservas img {
+    width: 100%;
+    height: 55vh;
+  }
+}
+
+/* Contenedor de reservas */
+.contenedor-reservas {
+  text-align: center;
+}
+.contenedor-reservas h2 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.reservas label {
+  margin: 10px;
+}
+.reservas label input {
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 5px solid rgb(92, 88, 81);
+  border-radius: 1rem;
+  padding: 8px;
+  background-color: rgb(26, 26, 187);
+}
+.reservas label input:hover {
+  background-color: #14213d;
+  color: #fca311;
+  border: 5px solid #000000;
+}
+@media (min-width: 600px) {
+  .reservas label input {
+    width: 300px;
+  }
+}
+@media (min-width: 770px) {
+  .reservas label input {
+    width: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  .reservas label input {
+    width: 500px;
+  }
+}
+
+/* Ofertas */
+.contenedor-ofertas {
+  text-align: center;
+}
+.contenedor-ofertas h2 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.contenedor-ofertas .ofertas {
+  margin: 0 10px;
+}
+.contenedor-ofertas .ofertas strong {
+  text-transform: uppercase;
+  color: #fca311;
+}
+.contenedor-ofertas .ofertas img {
+  width: 350px;
+}
+@media (min-width: 600px) {
+  .contenedor-ofertas h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+}
+@media (min-width: 770px) {
+  .contenedor-ofertas .ofertas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .contenedor-ofertas .ofertas p {
+    margin-right: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .contenedor-ofertas h2 {
+    font-size: 35px;
+  }
+}
+
+/* Reservas anteriores */
+.contenedor-antigua {
+  text-align: center;
+}
+.contenedor-antigua h2 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.contenedor-antigua .antigua {
+  margin: 0 10px;
+}
+.contenedor-antigua .antigua img {
+  width: 350px;
+}
+.contenedor-antigua .antigua strong {
+  text-transform: uppercase;
+  color: #fca311;
+}
+@media (min-width: 600px) {
+  .contenedor-antigua h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+}
+@media (min-width: 770px) {
+  .contenedor-antigua .antigua {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .contenedor-antigua .antigua p {
+    margin-right: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .contenedor-antigua h2 {
+    font-size: 35px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
