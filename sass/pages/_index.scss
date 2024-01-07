@@ -221,12 +221,27 @@ main {
 
 .informacion-inicio {
     border: 2px solid $bordes;
-    margin: 20px;
     padding-bottom: 30px;
     border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.informacion-pagos {
+    border: 2px solid $bordes;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 .informacion-inicio h3 {
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $bordes;
+}
+
+.informacion-pagos h3 {
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -237,7 +252,16 @@ main {
     padding: 30px;
 }
 
+.informacion-pagos p {
+    padding: 30px;
+}
+
 .informacion-inicio ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.informacion-pagos ul {
     list-style: none;
     margin-top: 30px;
 }
@@ -245,6 +269,11 @@ main {
 .informacion-inicio ul li {
     margin-bottom: 10px;
 }
+
+.informacion-pagos ul li {
+    margin-bottom: 10px;
+}
+
 
 .informacion-inicio a {
     color: $c-blanco;
@@ -261,6 +290,13 @@ main {
 @media (min-width:770px) {
 
     .informacion-inicio {
+        border: 2px solid $bordes;
+        margin: 10px 50px 0px 50px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    .informacion-pagos {
         border: 2px solid $bordes;
         margin: 50px;
         padding-bottom: 30px;
@@ -283,7 +319,18 @@ main {
         border-radius: 10px;
     }
 
+    .informacion-pagos {
+        width: 400px;
+        height: 400px;
+        border-radius: 10px;
+    }
+
     .informacion-inicio p {
+        padding: 15px 5px;
+        margin-bottom: 20px;
+    }
+
+    .informacion-pagos p {
         padding: 15px 5px;
         margin-bottom: 20px;
     }
@@ -293,13 +340,28 @@ main {
         padding-bottom: 50px;
     }
 
+    .informacion-pagos ul {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .informacion-inicio ul li {
+        margin: 10px;
+    }
+
+    .informacion-pagos ul li {
         margin: 10px;
     }
 }
 
 @media (min-width:1200px) {
     .informacion-inicio {
+        width: 400px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+    .informacion-pagos {
         width: 400px;
         height: 350px;
         border-radius: 10px;
