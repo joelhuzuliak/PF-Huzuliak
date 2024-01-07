@@ -957,6 +957,7 @@ span {
 /* Contenedor de reservas */
 .contenedor-reservas {
   text-align: center;
+  color: #ffffff;
 }
 .contenedor-reservas h2 {
   text-transform: uppercase;
@@ -966,6 +967,7 @@ span {
 
 .reservas label {
   margin: 10px;
+  color: #ffffff;
 }
 .reservas label input {
   margin: 10px;
@@ -1000,6 +1002,7 @@ span {
 /* Ofertas */
 .contenedor-ofertas {
   text-align: center;
+  color: #ffffff;
 }
 .contenedor-ofertas h2 {
   text-transform: uppercase;
@@ -1044,6 +1047,7 @@ span {
 /* Reservas anteriores */
 .contenedor-antigua {
   text-align: center;
+  color: #ffffff;
 }
 .contenedor-antigua h2 {
   text-transform: uppercase;

@@ -30,6 +30,7 @@
 
 .contenedor-reservas {
     text-align: center;
+    color: $c-blanco;
 
     & h2 {
         text-transform: uppercase;
@@ -40,6 +41,7 @@
 
 .reservas label {
     margin: 10px;
+    color: $c-blanco;
 
     & input {
         margin: 10px;
@@ -80,6 +82,7 @@
 
 .contenedor-ofertas{
     text-align: center;
+    color: $c-blanco;
 
     & h2 {
         text-transform: uppercase;
@@ -133,6 +136,7 @@
 
 .contenedor-antigua {
     text-align: center;
+    color: $c-blanco;
 
     & h2 {
         text-transform: uppercase;
