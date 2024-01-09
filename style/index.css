@@ -534,6 +534,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 50vh;
   }
   .contenedor-info .informacion-inicio {
     border: 2px solid #fca311;
@@ -542,7 +543,10 @@ main {
     margin-bottom: 10px;
     border-radius: 16px;
     width: 340px;
-    height: 30vh;
+    height: 45vh;
+  }
+  .contenedor-info .informacion-inicio li {
+    margin-top: 35px;
   }
 }
 
@@ -1172,7 +1176,7 @@ span {
 }
 @media (min-width: 1024px) {
   .contenedor-antigua {
-    height: 30vh;
+    height: 40vh;
   }
   .contenedor-antigua h2 {
     font-size: 35px;
@@ -1180,7 +1184,7 @@ span {
 }
 @media (min-width: 1200px) {
   .contenedor-antigua {
-    height: 35vh;
+    height: 40vh;
   }
 }
 

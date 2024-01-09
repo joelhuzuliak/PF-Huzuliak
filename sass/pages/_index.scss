@@ -421,7 +421,8 @@ main {
 
         display: flex;
         justify-content: space-evenly;
-        align-items: center;     
+        align-items: center; 
+        height: 50vh;    
 
         .informacion-inicio {
             border: 2px solid $c-amarillo;
@@ -430,7 +431,11 @@ main {
             margin-bottom: 10px;
             border-radius: 16px;
             width: 340px;
-            height: 30vh;
+            height: 45vh;
+
+            li {
+                margin-top: 35px;
+            }
         }
     }
 }
