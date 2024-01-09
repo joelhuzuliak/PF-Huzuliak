@@ -312,7 +312,7 @@ main {
 .contenedor-informacion {
     text-align: center;
     color: $c-blanco;
-    height: 90vh;
+    height: 130vh;
 
     .informacion-inicio {
         border: 2px solid $c-amarillo;
@@ -321,18 +321,20 @@ main {
         margin-bottom: 20px;
         border-radius: 16px;
         width: 340px;
-        height: 27vh;
+        height: 40vh;
 
         h3 {
             text-transform: uppercase;
             border-bottom: 2px solid $c-amarillo;
             padding-bottom: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
 
         p {
             text-align: center;
             margin-top: 40px;
-            margin-bottom: 70px;
+            margin-bottom: 60px;
             margin-left: 10px;
             margin-right: 10px;
 
@@ -365,6 +367,10 @@ main {
         
         .informacion-inicio {
             margin-left: 22%;
+
+            li {
+                margin-top: 10px;
+            }
         }
     }
 
@@ -373,6 +379,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 60vh;
 
         .informacion-inicio {
             border: 2px solid $c-amarillo;
@@ -381,11 +388,23 @@ main {
             margin-bottom: 10px;
             border-radius: 16px;
             width: 340px;
-            height: 35vh;
+            height: 40vh;
         }
     }
 
     @media (min-width:1024px) {
+
+        height: 40vh;
+
+        .informacion-inicio {
+            border: 2px solid $c-amarillo;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border-radius: 16px;
+            width: 340px;
+            height: 25vh;
+        }
 
         h3 {
             font-size: 23px;
@@ -395,6 +414,19 @@ main {
 
         p {
             font-size: 20px;
+        }
+    }
+
+    @media (min-width:1200px) {
+
+        .informacion-inicio {
+            border: 2px solid $c-amarillo;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border-radius: 16px;
+            width: 340px;
+            height: 30vh;
         }
     }
 }
