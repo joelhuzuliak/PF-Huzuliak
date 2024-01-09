@@ -482,7 +482,7 @@ main {
 .contenedor-info .informacion-inicio li {
   margin-top: 20px;
 }
-@media (min-width: 390px) {
+@media (min-width: 380px) {
   .contenedor-info .informacion-inicio {
     margin-left: 25px;
   }
