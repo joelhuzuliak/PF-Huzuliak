@@ -79,6 +79,7 @@
 .contenedor-informacion {
     text-align: center;
     color: $c-blanco;
+    height: 35vh;
 
     ul {
         padding-top: 20px;
@@ -90,8 +91,6 @@
             margin-bottom: 10px;
 
             &:hover {
-                background-color: $c-amarillo;
-                color: $c-negro;
                 cursor: pointer;
             }
         }

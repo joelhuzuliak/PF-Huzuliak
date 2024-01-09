@@ -138,6 +138,7 @@
 .contenedor-antigua {
     text-align: center;
     color: $c-blanco;
+    height: 70vh;
 
     & h2 {
         text-transform: uppercase;
@@ -169,6 +170,9 @@
     }
 
     @media (min-width:770px) {
+
+        height: 45vh;
+
         .antigua {
             display: flex;
             justify-content: space-evenly;
@@ -181,8 +185,16 @@
     }
 
     @media (min-width:1024px) {
+
+        height: 30vh;
+
         & h2 {
             font-size: 35px;
         }
+    }
+
+    @media (min-width:1200px) {
+
+        height: 35vh;
     }
 }

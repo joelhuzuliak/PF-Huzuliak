@@ -435,12 +435,12 @@ main {
 }
 
 /* Metodos de pagos, envios y comer en el local */
-.contenedor-informacion {
+.contenedor-info {
   text-align: center;
   color: #ffffff;
   height: 130vh;
 }
-.contenedor-informacion .informacion-inicio {
+.contenedor-info .informacion-inicio {
   border: 2px solid #fca311;
   margin-left: 10px;
   margin-right: 10px;
@@ -449,55 +449,55 @@ main {
   width: 340px;
   height: 40vh;
 }
-.contenedor-informacion .informacion-inicio h3 {
+.contenedor-info .informacion-inicio h3 {
   text-transform: uppercase;
   border-bottom: 2px solid #fca311;
   padding-bottom: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.contenedor-informacion .informacion-inicio p {
+.contenedor-info .informacion-inicio p {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 60px;
   margin-left: 10px;
   margin-right: 10px;
 }
-.contenedor-informacion .informacion-inicio p strong {
+.contenedor-info .informacion-inicio p strong {
   color: #fca311;
   text-transform: uppercase;
 }
-.contenedor-informacion .informacion-inicio a {
+.contenedor-info .informacion-inicio a {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #fca311;
   padding: 12px;
   border-radius: 1rem;
 }
-.contenedor-informacion .informacion-inicio a:hover {
+.contenedor-info .informacion-inicio a:hover {
   background-color: #14213d;
   color: #fca311;
   border: 2px solid #fca311;
 }
-.contenedor-informacion .informacion-inicio li {
+.contenedor-info .informacion-inicio li {
   margin-top: 20px;
 }
 @media (min-width: 600px) {
-  .contenedor-informacion .informacion-inicio {
+  .contenedor-info .informacion-inicio {
     margin-left: 22%;
   }
-  .contenedor-informacion .informacion-inicio li {
-    margin-top: 10px;
+  .contenedor-info .informacion-inicio li {
+    margin-top: 20px;
   }
 }
 @media (min-width: 770px) {
-  .contenedor-informacion {
+  .contenedor-info {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60vh;
   }
-  .contenedor-informacion .informacion-inicio {
+  .contenedor-info .informacion-inicio {
     border: 2px solid #fca311;
     margin-left: 10px;
     margin-right: 10px;
@@ -508,10 +508,10 @@ main {
   }
 }
 @media (min-width: 1024px) {
-  .contenedor-informacion {
+  .contenedor-info {
     height: 40vh;
   }
-  .contenedor-informacion .informacion-inicio {
+  .contenedor-info .informacion-inicio {
     border: 2px solid #fca311;
     margin-left: 10px;
     margin-right: 10px;
@@ -520,17 +520,22 @@ main {
     width: 340px;
     height: 25vh;
   }
-  .contenedor-informacion h3 {
+  .contenedor-info h3 {
     font-size: 23px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  .contenedor-informacion p {
+  .contenedor-info p {
     font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .contenedor-informacion .informacion-inicio {
+  .contenedor-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .contenedor-info .informacion-inicio {
     border: 2px solid #fca311;
     margin-left: 10px;
     margin-right: 10px;
@@ -1126,6 +1131,7 @@ span {
 .contenedor-antigua {
   text-align: center;
   color: #ffffff;
+  height: 70vh;
 }
 .contenedor-antigua h2 {
   text-transform: uppercase;
@@ -1152,6 +1158,9 @@ span {
   }
 }
 @media (min-width: 770px) {
+  .contenedor-antigua {
+    height: 45vh;
+  }
   .contenedor-antigua .antigua {
     display: flex;
     justify-content: space-evenly;
@@ -1162,8 +1171,16 @@ span {
   }
 }
 @media (min-width: 1024px) {
+  .contenedor-antigua {
+    height: 30vh;
+  }
   .contenedor-antigua h2 {
     font-size: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .contenedor-antigua {
+    height: 35vh;
   }
 }
 
@@ -1231,6 +1248,7 @@ span {
 .contenedor-informacion {
   text-align: center;
   color: #ffffff;
+  height: 35vh;
 }
 .contenedor-informacion ul {
   padding-top: 20px;
@@ -1242,8 +1260,6 @@ span {
   margin-bottom: 10px;
 }
 .contenedor-informacion ul li:hover {
-  background-color: #fca311;
-  color: #000000;
   cursor: pointer;
 }
 @media (min-width: 600px) {
