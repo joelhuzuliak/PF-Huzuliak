@@ -1144,4 +1144,101 @@ span {
   }
 }
 
+/* Iframe de donde nos encontramos */
+.contenedor-ubicacion {
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+}
+.contenedor-ubicacion h2 {
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contenedor-ubicacion .mapa {
+  width: 100%;
+}
+.contenedor-ubicacion .mapa iframe {
+  width: 90%;
+  height: 30vh;
+  border-radius: 10px;
+}
+@media (min-width: 600px) {
+  .contenedor-ubicacion .mapa {
+    width: 100%;
+  }
+  .contenedor-ubicacion .mapa iframe {
+    width: 90%;
+    height: 40vh;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 770px) {
+  .contenedor-ubicacion .mapa {
+    width: 100%;
+  }
+  .contenedor-ubicacion .mapa iframe {
+    width: 90%;
+    height: 50vh;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .contenedor-ubicacion .mapa {
+    width: 100%;
+  }
+  .contenedor-ubicacion .mapa iframe {
+    width: 90%;
+    height: 60vh;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .contenedor-ubicacion .mapa {
+    width: 100%;
+  }
+  .contenedor-ubicacion .mapa iframe {
+    width: 90%;
+    height: 70vh;
+    border-radius: 10px;
+  }
+}
+
+/* Informacion para contactarnos */
+.contenedor-informacion {
+  text-align: center;
+  color: #ffffff;
+}
+.contenedor-informacion ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contenedor-informacion ul li {
+  margin-bottom: 10px;
+}
+.contenedor-informacion ul li:hover {
+  background-color: #fca311;
+  color: #000000;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .contenedor-informacion li {
+    font-size: 18px;
+  }
+}
+@media (min-width: 770px) {
+  .contenedor-informacion li {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .contenedor-informacion li {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
