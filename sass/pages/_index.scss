@@ -4,35 +4,47 @@ main {
     background-color: rgb(6, 6, 73);
 }
 
+
 /* Foto de la empresa */
 
 .contenedor-imagen-inicio {
     width: 100%;
-}
 
-.contenedor-imagen-inicio img {
-    width: 100%;
-    height: 20vh;
-}
-
-@media (min-width:600px) {
-    .contenedor-imagen-inicio img {
+    img {
         width: 100%;
-        height: 30vh;
+        height: 20vh;
     }
-}
 
-@media (min-width:770px) {
-    .contenedor-imagen-inicio img {
-        width: 100%;
-        height: 42vh;
+    @media (min-width:600px) {
+
+        img {
+            width: 100%;
+            height: 30vh;
+        }
     }
-}
 
-@media (min-width:1024px) {
-    .contenedor-imagen-inicio img {
-        width: 100%;
-        height: 45vh;
+    @media (min-width:770px) {
+
+        img {
+            width: 100%;
+            height: 40vh;
+        }
+    }
+
+    @media (min-width:1024px) {
+
+        img {
+            width: 100%;
+            height: 50vh;
+        }
+    }
+
+    @media (min-width:1200px) {
+     
+        img {
+            width: 100%;
+            height: 60vh;
+        }
     }
 }
 
@@ -40,101 +52,119 @@ main {
 
 .contenedor-hamburguesa {
     text-align: center;
-    width: 100%;
-}
-
-.informacion-hamburguesa {
     color: $c-blanco;
-}
 
-.informacion-hamburguesa h2 {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.informacion-hamburguesa p {
-    padding: 0 10px;
-    margin-bottom: 30px;
-}
-
-.informacion-hamburguesa a {
-    background-color: rgb(0, 0, 114);
-    color: $c-blanco;
-    padding: 10px;
-    border-radius: 1rem;
-    text-transform: uppercase;
-}
-
-.informacion-hamburguesa a:hover {
-    background-color: $c-negro;
-}
-
-.foto-hamburguesa {
-    margin-top: 20px;
-}
-
-.foto-hamburguesa img {
-    width: 300px;
-    padding-left: 20px;
-}
-
-@media (min-width:600px) {
-    .informacion-hamburguesa h2 {
-        margin-top: 30px;
+    h2 {
+        margin-top: 20px;
         margin-bottom: 20px;
         text-transform: uppercase;
+        color: $c-amarillo;
     }
 
-    .informacion-hamburguesa p {
-        padding: 0 20px;
-        margin-bottom: 30px;
-        font-size: 20px;
-    }
-
-    .informacion-hamburguesa a {
-        background-color: rgb(0, 0, 114);
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
         color: $c-blanco;
-        padding: 10px;
-        border-radius: 1rem;
-        text-transform: uppercase;
-        font-size: 25px;
+        margin-bottom: 30px;
     }
 
-    .informacion-hamburguesa a:hover {
-        background-color: black;
+    a {
+        text-transform: uppercase;
+        color: $c-blanco;
+        background-color: $c-amarillo;
+        padding: 16px;
+        border-radius: 1rem;
+
+        &:hover {
+            background-color: $c-azul;
+            color: $c-amarillo;
+            border: 2px solid $c-amarillo;
+        }
     }
 
     .foto-hamburguesa {
+        text-align: center;
         margin-top: 20px;
+
+        img {
+            width: 200px;
+        }
     }
+
+    @media (min-width:600px) {
+
+        p {
+           margin-left: 20px;
+           margin-right: 20px;
+           color: $c-blanco;
+           margin-bottom: 40px;
+           font-size: 18px;
+        }
+
+        .foto-hamburguesa {
+            text-align: center;
+            margin-top: 30px;
     
-    .foto-hamburguesa img {
-        width: 350px;
-        padding-left: 20px;
+            img {
+                width: 250px;
+            }
+        }
     }
-}
 
-@media (min-width:1024px) {
+    @media (min-width:770px) {
 
-    .contenedor-hamburguesa {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
-        margin-bottom: 40px;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 18px;
+        }
     }
 
-    .informacion-hamburguesa a {
-        background-color: rgb(0, 0, 114);
-        color: $c-blanco;
-        padding: 10px;
-        border-radius: 1rem;
-        text-transform: uppercase;
-        font-size: 20px;
+    @media (min-width:1024px) {
+
+        h2 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        a {
+            text-transform: uppercase;
+            color: $c-blanco;
+            background-color: $c-amarillo;
+            padding: 16px;
+            border-radius: 1rem;
+            font-size: 20px;
+        }
+
+        .foto-hamburguesa {
+            text-align: center;
+            margin-top: 30px;
+    
+            img {
+                width: 350px;
+            }
+        }
     }
 
-    .informacion-hamburguesa a:hover {
-        background-color: black;
+    @media (min-width:1200px) {
+
+        .foto-hamburguesa {
+            text-align: center;
+            margin-top: 30px;
+    
+            img {
+                width: 400px;
+            }
+        }
     }
 }
 
@@ -142,231 +172,229 @@ main {
 
 .contenedor-vegana {
     text-align: center;
-    margin-bottom: 20px;
     color: $c-blanco;
-}
 
-.foto-vegana {
-    margin-top: 20px;
-}
+    .foto-vegana {
+     
+        text-align: center;
+        margin-top: 20px;
 
-.foto-vegana img {
-    width: 300px;
-}
-
-.informacion-vegana {
-    padding: 10px;
-}
-
-.informacion-vegana h2 {
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.informacion-vegana p {
-    margin-bottom: 30px;
-    padding: 0 10px;
-}
-
-.informacion-vegana a {
-    background-color: rgb(0, 0, 114);
-    color: $c-blanco;
-    padding: 10px;
-    border-radius: 1rem;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.informacion-vegana a:hover {
-    background-color: rgb(2, 2, 59);
-}
-
-@media (min-width:600px) {
-
-    .informacion-vegana p{
-        padding: 0 20px;
-        font-size: 20px;
-        margin-bottom: 30px;
+        img {
+            width: 200px;
+        }
     }
 
-    .informacion-vegana a {
-        background-color: rgb(0, 0, 114);
-        color: $c-blanco;
-        padding: 10px;
-        border-radius: 1rem;
-        text-transform: uppercase;
-        font-size: 25px;
-    }
+    .informacion-vegana {
+        text-align: center;
+        margin-bottom: 60px;
+
+        h2 {
+            margin-top: 20px;
+           margin-bottom: 20px;
+           text-transform: uppercase;
+           color: $c-amarillo;
+        }
+
+        p {
+            margin-left: 10px;
+            margin-right: 10px;
+            color: $c-blanco;
+            margin-bottom: 30px;
+
+            strong {
+                color: $c-amarillo;
+            }
+        }
     
-    .informacion-vegana a:hover {
-        background-color: black;
+        a {
+            text-transform: uppercase;
+            color: $c-blanco;
+            background-color: $c-amarillo;
+            padding: 16px;
+            border-radius: 1rem;
+    
+            &:hover {
+                background-color: $c-azul;
+                color: $c-amarillo;
+                border: 2px solid $c-amarillo;
+            }
+        }
     }
-}
 
-@media (min-width:1024px) {
-    .contenedor-vegana {
+    @media (min-width:600px) {
+
+        p {
+            margin-left: 20px;
+            margin-right: 20px;
+            color: $c-blanco;
+            margin-bottom: 40px;
+            font-size: 18px;
+         }
+ 
+         .foto-hamburguesa {
+             text-align: center;
+             margin-top: 30px;
+     
+             img {
+                 width: 250px;
+             }
+         }
+    }
+
+    @media (min-width:770px) {
+
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
-        margin: 30px;
+
+        & .foto-vegana {
+            text-align: center;
+            margin-top: 30px;
+
+            img {
+                width: 300px;
+            }
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    @media (min-width:1024px) {
+
+        .foto-vegana {
+            text-align: center;
+            margin-top: 30px;
+    
+            img {
+                width: 400px;
+            }
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        a {
+            text-transform: uppercase;
+            color: $c-blanco;
+            background-color: $c-amarillo;
+            padding: 16px;
+            border-radius: 1rem;
+            font-size: 20px;
+        }
+    }
+
+    @media (min-width:1200px) {
+
+        .foto-vegana {
+            text-align: center;
+            margin-top: 30px;
+    
+            img {
+                width: 450px;
+            }
+        }
     }
 }
 
-/* Metodos de pagos, envios y comer en el local */
+/* Metodos de pagos, envios y comer en el local */ 
 
 .contenedor-informacion {
-    color: $c-blanco;
     text-align: center;
-}
-
-.informacion-inicio {
-    border: 2px solid $bordes;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.informacion-pagos {
-    border: 2px solid $bordes;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.informacion-inicio h3 {
-    text-transform: uppercase;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid $bordes;
-}
-
-.informacion-pagos h3 {
-    text-transform: uppercase;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid $bordes;
-}
-
-.informacion-inicio p {
-    padding: 30px;
-}
-
-.informacion-pagos p {
-    padding: 30px;
-}
-
-.informacion-inicio ul {
-    list-style: none;
-    margin-top: 30px;
-}
-
-.informacion-pagos ul {
-    list-style: none;
-    margin-top: 30px;
-}
-
-.informacion-inicio ul li {
-    margin-bottom: 10px;
-}
-
-.informacion-pagos ul li {
-    margin-bottom: 10px;
-}
-
-
-.informacion-inicio a {
     color: $c-blanco;
-    background-color: rgb(0, 0, 114);
-    padding: 10px;
-    border-radius: 1rem;
-    text-transform: uppercase;
-}
-
-.informacion-inicio a:hover {
-    background-color: black;
-}
-
-@media (min-width:770px) {
+    height: 90vh;
 
     .informacion-inicio {
-        border: 2px solid $bordes;
-        margin: 10px 50px 0px 50px;
-        padding-bottom: 30px;
-        border-radius: 10px;
+        border: 2px solid $c-amarillo;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        border-radius: 16px;
+        width: 340px;
+        height: 27vh;
+
+        h3 {
+            text-transform: uppercase;
+            border-bottom: 2px solid $c-amarillo;
+            padding-bottom: 5px;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 70px;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            strong {
+                color: $c-amarillo;
+                text-transform: uppercase;
+            }
+        }
+
+        a {
+            text-transform: uppercase;
+            color: $c-blanco;
+            background-color: $c-amarillo;
+            padding: 12px;
+            border-radius: 1rem;
+
+            &:hover {
+                background-color: $c-azul;
+                color: $c-amarillo;
+                border: 2px solid $c-amarillo;
+            }
+        }
+
+        li {
+            margin-top: 20px;
+        }
     }
 
-    .informacion-pagos {
-        border: 2px solid $bordes;
-        margin: 50px;
-        padding-bottom: 30px;
-        border-radius: 10px;
+    @media (min-width:600px) {
+        
+        .informacion-inicio {
+            margin-left: 22%;
+        }
     }
 
-}
+    @media (min-width:770px) {
 
-@media (min-width:1024px) {
-
-    .contenedor-informacion {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
+
+        .informacion-inicio {
+            border: 2px solid $c-amarillo;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border-radius: 16px;
+            width: 340px;
+            height: 35vh;
+        }
     }
 
-    .informacion-inicio {
-        width: 400px;
-        height: 400px;
-        border-radius: 10px;
-    }
+    @media (min-width:1024px) {
 
-    .informacion-pagos {
-        width: 400px;
-        height: 400px;
-        border-radius: 10px;
-    }
+        h3 {
+            font-size: 23px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
 
-    .informacion-inicio p {
-        padding: 15px 5px;
-        margin-bottom: 20px;
-    }
-
-    .informacion-pagos p {
-        padding: 15px 5px;
-        margin-bottom: 20px;
-    }
-
-    .informacion-inicio ul {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    .informacion-pagos ul {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    .informacion-inicio ul li {
-        margin: 10px;
-    }
-
-    .informacion-pagos ul li {
-        margin: 10px;
-    }
-}
-
-@media (min-width:1200px) {
-    .informacion-inicio {
-        width: 400px;
-        height: 350px;
-        border-radius: 10px;
-    }
-
-    .informacion-pagos {
-        width: 400px;
-        height: 350px;
-        border-radius: 10px;
-    }
-
-    .informacion-inicio a {
-        font-size: 20px;
+        p {
+            font-size: 20px;
+        }
     }
 }
