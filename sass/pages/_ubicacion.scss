@@ -113,9 +113,15 @@
 
     @media (min-width:1024px) {
 
-        li {
-            margin-bottom: 20px;
-            font-size: 22px;
+        height: 25vh;
+
+        ul {
+            margin-top: 50px;
+
+            li {
+                margin-bottom: 20px;
+                font-size: 22px;
+            }
         }
     }
 }

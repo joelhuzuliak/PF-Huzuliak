@@ -1181,7 +1181,7 @@ span {
 }
 @media (min-width: 1024px) {
   .contenedor-antigua {
-    height: 40vh;
+    height: 30vh;
   }
   .contenedor-antigua h2 {
     font-size: 35px;
@@ -1189,7 +1189,7 @@ span {
 }
 @media (min-width: 1200px) {
   .contenedor-antigua {
-    height: 40vh;
+    height: 50vh;
   }
 }
 
@@ -1283,7 +1283,13 @@ span {
   }
 }
 @media (min-width: 1024px) {
-  .contenedor-informacion li {
+  .contenedor-informacion {
+    height: 25vh;
+  }
+  .contenedor-informacion ul {
+    margin-top: 50px;
+  }
+  .contenedor-informacion ul li {
     margin-bottom: 20px;
     font-size: 22px;
   }
