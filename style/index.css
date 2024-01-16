@@ -630,7 +630,7 @@ main {
 @media (min-width: 1200px) {
   .contenedor-tomar div .article-tomar {
     width: 450px;
-    height: 50vh;
+    height: 73vh;
   }
   .contenedor-tomar div .article-tomar ul {
     font-size: 20px;
@@ -713,7 +713,7 @@ main {
 @media (min-width: 1200px) {
   .contenedor-comer div .article-comer {
     width: 450px;
-    height: 50vh;
+    height: 73vh;
   }
   .contenedor-comer div .article-comer ul {
     font-size: 20px;
@@ -797,7 +797,7 @@ main {
 @media (min-width: 1200px) {
   .contenedor-postre div .article-postre {
     width: 450px;
-    height: 50vh;
+    height: 73vh;
   }
   .contenedor-postre div .article-postre ul {
     font-size: 20px;
@@ -1263,7 +1263,7 @@ main {
 }
 @media (min-width: 1024px) {
   .contenedor-informacion {
-    height: 25vh;
+    height: 45vh;
   }
   .contenedor-informacion ul {
     margin-top: 50px;
