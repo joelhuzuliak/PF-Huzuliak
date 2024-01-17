@@ -39,11 +39,11 @@
     }
 }
 
-.reservas label {
+.reservas {
     margin: 10px;
     color: $c-blanco;
 
-    & input {
+    input {
         margin: 10px;
         text-align: center;
         text-transform: uppercase;
@@ -52,17 +52,25 @@
         padding: 8px;
         background-color: rgb(26, 26, 187);
         color: $c-blanco;
+        width: 300px;
 
         &:hover {
            background-color: $c-azul;
            color: $c-amarillo;
            border: 5px solid $c-negro;
         }
+        
     }
 
     @media (min-width:600px) {
         & input {
             width: 300px;
+        }
+    }
+
+    @media (min-width:664px) {
+        & input {
+            width: 400px;
         }
     }
 
@@ -72,9 +80,15 @@
         }
     }
 
-    @media (min-width:1024px) {
+    @media (min-width:864px) {
         & input {
             width: 500px;
+        }
+    }
+
+    @media (min-width:1064px) {
+        & input {
+            width: 600px;
         }
     }
 }

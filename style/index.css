@@ -895,7 +895,7 @@ main {
   }
   .nosotros-contenedor .contenedor-display .nosotros {
     margin: 20px;
-    height: 25vh;
+    height: 30vh;
   }
   .nosotros-contenedor .contenedor-display .nosotros h4 {
     font-size: 18px;
@@ -917,7 +917,7 @@ main {
   }
   .nosotros-contenedor .nosotros-div .nosotros {
     width: 250px;
-    height: 30vh;
+    height: 35vh;
   }
 }
 
@@ -1037,11 +1037,11 @@ main {
   margin-bottom: 20px;
 }
 
-.reservas label {
+.reservas {
   margin: 10px;
   color: #ffffff;
 }
-.reservas label input {
+.reservas input {
   margin: 10px;
   text-align: center;
   text-transform: uppercase;
@@ -1050,25 +1050,36 @@ main {
   padding: 8px;
   background-color: rgb(26, 26, 187);
   color: #ffffff;
+  width: 300px;
 }
-.reservas label input:hover {
+.reservas input:hover {
   background-color: #14213d;
   color: #fca311;
   border: 5px solid #000000;
 }
 @media (min-width: 600px) {
-  .reservas label input {
+  .reservas input {
     width: 300px;
   }
 }
-@media (min-width: 770px) {
-  .reservas label input {
+@media (min-width: 664px) {
+  .reservas input {
     width: 400px;
   }
 }
-@media (min-width: 1024px) {
-  .reservas label input {
+@media (min-width: 770px) {
+  .reservas input {
+    width: 400px;
+  }
+}
+@media (min-width: 864px) {
+  .reservas input {
     width: 500px;
+  }
+}
+@media (min-width: 1064px) {
+  .reservas input {
+    width: 600px;
   }
 }
 
