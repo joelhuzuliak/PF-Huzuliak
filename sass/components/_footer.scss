@@ -6,13 +6,19 @@ footer {
     text-align: center;
 }
 
+footer a {
+    color: $c-blanco;
+}
+
 footer div {
     padding-top: 20px;
 }
 
 footer div h4 {
     text-transform: uppercase;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid $c-blanco;
 }
 
 footer ul {
