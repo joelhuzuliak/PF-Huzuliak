@@ -1,4 +1,5 @@
 /* Variables */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,7 @@ a {
 }
 
 /* Colores */
+/* Tipografia */
 /* Header, parte de la navegacion y logo de la empresa */
 header {
   background-color: rgb(2, 2, 36);
@@ -194,6 +196,7 @@ footer ul li {
 /* MAIN */
 main {
   background-color: rgb(6, 6, 73);
+  font-family: "Caveat", "cursive";
 }
 
 /* Foto de la empresa */
