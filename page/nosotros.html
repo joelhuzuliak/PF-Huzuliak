@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="../style/nosotros.css">
     <link rel="icon" href="../image/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -45,7 +46,7 @@
         <section class="nosotros-contenedor">
             <h2>Nuestra cultura</h2>
             <div class="nosotros-div">
-                <div class="contenedor-display">
+                <div class="contenedor-display" data-aos="flip-right">
                     <article class="nosotros">
                         <h4>Excelencia</h4>
                         <img src="../image/excelencia-nosotros.png" alt="Icon de aceptado" title="Icon de aceptado">
@@ -59,7 +60,7 @@
                     </article>
                 </div>
         
-                <div class="contenedor-display">
+                <div class="contenedor-display" data-aos="flip-left">
                     <article class="nosotros">
                         <h4>Atencion de calidad</h4>
                         <img src="../image/calidad.nosotros.png" alt="Icon de calidad" title="Icon de calidad">
@@ -80,7 +81,7 @@
         <section class="equipo-contenedor">
             <h2>Nuestro equipo</h2>
             <div class="contenedor-div">
-                <div class="contenedor-equipo">
+                <div class="contenedor-equipo" data-aos="flip-right">
                     <article class="equipo">
                         <img src="../image/foto-dueño-nosotros.jpg" alt="Foto del dueño" title="Foto del dueño">
                         <h4>Dueño</h4>
@@ -94,7 +95,7 @@
                     </article>
                 </div>
     
-                <div class="contenedor-equipo">
+                <div class="contenedor-equipo" data-aos="flip-left">
                     <article class="equipo">
                         <img src="../image/foto-empleado-nosotros.jpg" alt="Foto del empleado" title="Foto del empledo">
                         <h4>Empleado</h4>
@@ -166,5 +167,10 @@
             </nav>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -8,6 +8,7 @@
     <title>Food Fast</title>
     <link rel="stylesheet" href="./style/index.css">
     <link rel="icon" href="./image/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +44,7 @@
 
         <!-- Primera section donde aparece informacion sobre la hambuguesa -->
 
-        <section class="contenedor-hamburguesa">
+        <section class="contenedor-hamburguesa" data-aos="zoom-in">
             <article class="informacion-hamburguesa">
                 <h2>Hamburguesa</h2>
                 <p>Hamburguesa doble, Cheddar, Bacon, Huevo, Salsa de ketchup con cebolla y Mayonesa.</p>
@@ -57,7 +58,7 @@
 
         <!-- Segunda section donde se habla sobre la comida vegana -->
 
-        <section class="contenedor-vegana">
+        <section class="contenedor-vegana" data-aos="zoom-in">
             <article class="foto-vegana">
                 <img src="./image/imagen-comida-vegana-inicio.png" alt="Foto de una comida vegana"
                     title="Foto de una comida vegana">
@@ -73,12 +74,12 @@
         <!-- Metodos de pagos, envios y comer en el local -->
 
         <section class="contenedor-info">
-            <article class="informacion-inicio">
+            <article class="informacion-inicio" data-aos="flip-left">
                 <h3>Envios</h3>
                 <p>Hacemos envios a toda la ciudad, si quieres encargar haga  click en <strong>Encargar</strong>.</p>
                 <a href="./page/nosotros.html">Encargar</a>
             </article>
-            <article class="informacion-inicio">
+            <article class="informacion-inicio" data-aos="flip-left">
                 <h3>Metodos de pagos</h3>
                 <ul>
                     <li>Efectivo</li>
@@ -87,7 +88,7 @@
                     <li>Credito</li>
                 </ul>
             </article>
-            <article class="informacion-inicio">
+            <article class="informacion-inicio" data-aos="flip-left">
                 <h3>Comer en el local</h3>
                 <p>Puede encargar por este metodo para no esperar o le puede pedir a su mozo lo que quiera encargar.</p>
                 <a href="./page/menu.html">Menu</a>
@@ -150,6 +151,11 @@
             </nav>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

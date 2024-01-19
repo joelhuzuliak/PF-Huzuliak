@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="../style/reservas.css">
     <link rel="icon" href="../image/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -72,7 +73,7 @@
 
         <!-- Ofertas por reservar -->
 
-        <section class="contenedor-ofertas">
+        <section class="contenedor-ofertas" data-aos="flip-right">
             <h2>🚨 Ofertas por reservas 🚨</h2>
  
             <article class="ofertas">
@@ -83,7 +84,7 @@
 
         <!-- Descuntos por no se la primera vez que se reserva -->
 
-        <section class="contenedor-antigua">
+        <section class="contenedor-antigua" data-aos="flip-right">
             <h2>¿Ya habias reservado antes?</h2>
 
             <article class="antigua">
@@ -148,5 +149,10 @@
             </nav>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
