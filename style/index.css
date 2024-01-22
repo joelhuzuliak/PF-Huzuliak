@@ -580,7 +580,7 @@ main {
 .contenedor-tomar div .article-tomar {
   border: 2px solid #fca311;
   width: 300px;
-  height: 60vh;
+  height: 65vh;
   margin-bottom: 20px;
   text-align: center;
   border-radius: 16px;
@@ -615,6 +615,7 @@ main {
     align-items: center;
   }
   .contenedor-tomar div .article-tomar {
+    height: 70vh;
     margin: 20px;
   }
   .contenedor-tomar div .article-tomar ul {
@@ -627,13 +628,18 @@ main {
 @media (min-width: 1024px) {
   .contenedor-tomar div .article-tomar {
     width: 400px;
-    height: 40vh;
+    height: 65vh;
   }
   .contenedor-tomar div .article-tomar ul {
     font-size: 18px;
   }
   .contenedor-tomar div .article-tomar ul li {
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 1050px) {
+  .contenedor-tomar div .article-tomar {
+    height: 73vh;
   }
 }
 @media (min-width: 1200px) {
@@ -663,7 +669,7 @@ main {
 .contenedor-comer div .article-comer {
   border: 2px solid #fca311;
   width: 300px;
-  height: 60vh;
+  height: 65vh;
   margin-bottom: 20px;
   text-align: center;
   border-radius: 16px;
@@ -699,6 +705,7 @@ main {
   }
   .contenedor-comer div .article-comer {
     margin: 20px;
+    height: 70vh;
   }
   .contenedor-comer div .article-comer ul {
     margin-top: 14px;
@@ -710,13 +717,18 @@ main {
 @media (min-width: 1024px) {
   .contenedor-comer div .article-comer {
     width: 400px;
-    height: 40vh;
+    height: 65vh;
   }
   .contenedor-comer div .article-comer ul {
     font-size: 18px;
   }
   .contenedor-comer div .article-comer ul li {
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 1050px) {
+  .contenedor-comer div .article-comer {
+    height: 73vh;
   }
 }
 @media (min-width: 1200px) {
@@ -746,7 +758,7 @@ main {
 .contenedor-postre div .article-postre {
   border: 2px solid #fca311;
   width: 300px;
-  height: 60vh;
+  height: 65vh;
   margin-bottom: 20px;
   text-align: center;
   border-radius: 16px;
@@ -782,7 +794,7 @@ main {
   }
   .contenedor-postre div .article-postre {
     margin: 20px;
-    height: 65vh;
+    height: 70vh;
   }
   .contenedor-postre div .article-postre ul {
     margin-top: 14px;
@@ -794,13 +806,18 @@ main {
 @media (min-width: 1024px) {
   .contenedor-postre div .article-postre {
     width: 400px;
-    height: 40vh;
+    height: 65vh;
   }
   .contenedor-postre div .article-postre ul {
     font-size: 18px;
   }
   .contenedor-postre div .article-postre ul li {
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 1050px) {
+  .contenedor-postre div .article-postre {
+    height: 73vh;
   }
 }
 @media (min-width: 1200px) {
