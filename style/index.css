@@ -1007,7 +1007,7 @@ main {
     align-items: center;
   }
   .equipo-contenedor .contenedor-equipo .equipo {
-    height: 40vh;
+    height: 50vh;
     margin: 15px;
   }
 }
@@ -1191,7 +1191,7 @@ main {
 }
 @media (min-width: 770px) {
   .contenedor-antigua {
-    height: 45vh;
+    height: 50vh;
   }
   .contenedor-antigua .antigua {
     display: flex;
@@ -1204,7 +1204,7 @@ main {
 }
 @media (min-width: 1024px) {
   .contenedor-antigua {
-    height: 30vh;
+    height: 50vh;
   }
   .contenedor-antigua h2 {
     font-size: 35px;
