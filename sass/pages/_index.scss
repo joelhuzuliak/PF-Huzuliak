@@ -397,7 +397,7 @@ main {
             margin-bottom: 10px;
             border-radius: 16px;
             width: 340px;
-            height: 40vh;
+            height: 45vh;
         }
     }
 
@@ -423,6 +423,13 @@ main {
 
         p {
             font-size: 20px;
+        }
+    }
+
+    @media (min-width:1024px) {
+
+        .informacion-inicio {
+            height: 40vh;
         }
     }
 

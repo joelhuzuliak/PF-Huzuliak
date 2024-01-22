@@ -517,7 +517,7 @@ main {
     margin-bottom: 10px;
     border-radius: 16px;
     width: 340px;
-    height: 40vh;
+    height: 45vh;
   }
 }
 @media (min-width: 1024px) {
@@ -540,6 +540,11 @@ main {
   }
   .contenedor-info p {
     font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .contenedor-info .informacion-inicio {
+    height: 40vh;
   }
 }
 @media (min-width: 1200px) {
